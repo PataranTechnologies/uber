@@ -1,0 +1,41 @@
+.Forgot{margin-left: 20%;}
+
+.buttonFooter
+{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.button
+{
+
+    flex: .3;
+
+}
+
+
+.header
+{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    
+}
+
+.headerButton
+{
+    background-color: white;
+    border: 0px white;
+    width: 18px;
+}
+
+div.fade.in.modal {
+    display:flex 
+  }
+  
+  .modal-dialog {
+    margin-top: 48%;
+    margin-bottom: 50%;
+  }
+  ::-webkit-scrollbar {display:none;}

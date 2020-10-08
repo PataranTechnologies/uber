@@ -1,0 +1,37 @@
+.AddMerchantText
+{
+    display: flex;
+  
+}
+
+.colorWhite ListItemText
+{
+    color: white;
+}
+
+.AddMerc
+{
+    width: 180px;
+    height: 48px;
+    opacity: 10;
+    object-fit: cover;
+    display: flex;
+    align-self: center;
+    align-content: center;
+    margin-left: 15px;
+}
+.selected div
+{
+    background-color: #00c9e3;
+    
+}
+.selected:hover div
+{
+    background-color: #00c9e3;
+   
+}
+/* .hover:hover div
+{
+    background-color: #00c9e3;
+   
+} */

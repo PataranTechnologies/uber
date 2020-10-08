@@ -1,0 +1,89 @@
+
+.data{width:500px;height:150px;}
+.datapara{width:100%;}
+
+.mains{width:500px;height:150px;}
+
+.graphs
+{
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    background-color: white;
+    width: 155vh;
+    margin: 15px;
+
+}
+.fixedPa
+{
+    display: flex;
+    position: relative;
+    top: -5px;
+    right: 210px;
+    width: 500px;
+    float:right;
+    height: 30px;
+}
+
+.mainPage
+{
+    margin-top: 15px;
+    display: flex;
+
+}
+.containera
+{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px dotted lightgray;
+    padding-bottom: 15px;
+}
+
+.signupRequests
+{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.buttonsdiv
+{
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+
+}
+.boxx{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.buts
+{
+flex-direction: row;
+display: flex;
+  
+}
+
+.acceptButton ,.rejectButton ,.viewButton
+{
+width: 75px;
+height: 35px;
+font-size: 15px;
+box-sizing:border-box;
+cursor: pointer;
+
+}
+
+.datatablea
+{
+  margin-left: 1.5%;
+  margin-top: 2%;
+  background: #ffffff;
+  box-sizing: inherit;
+}
+
+.cardss
+{
+    display: flex;
+    flex-direction: row;
+}

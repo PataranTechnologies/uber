@@ -1,0 +1,15 @@
+.Forgot{margin-left: 20%;}
+
+.buttonFooter
+{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.button
+{
+
+    flex: 1;
+
+}

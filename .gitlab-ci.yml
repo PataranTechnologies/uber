@@ -1,0 +1,37 @@
+image: node:10.6.0
+
+stages:
+  - build
+  - test
+  - deploy
+before_script:
+
+        - sudo npm install
+        
+        - sudo chmod -R 777 /home2/Web2/Sipcity_React/qEbx8Eqp/0/mprog/sipcity_reactjs/node_modules/
+        
+build-min-code:
+  stage: build
+  script:
+  
+   - sudo npm run build 
+   - sudo chown -R gitlab-runner:gitlab-runner /home2/Web2/Sipcity_React/
+   - sudo chmod -R 777 /home2/Web2/Sipcity_React/qEbx8Eqp/0/mprog/sipcity_reactjs/build/
+  
+run-unit-test:
+  stage: test
+  script:
+    - npm run test
+  stage: deploy
+  script:
+    - npm run deploy-stage
+  only:
+    - develop
+
+deploy-production:
+  stage: deploy
+  script:
+    - npm run deploy-prod
+  only:
+    - master
+

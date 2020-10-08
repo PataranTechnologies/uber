@@ -1,0 +1,51 @@
+
+.allMemberHeader
+{
+display: flex;
+flex-direction: row;
+padding: 4px;
+}
+
+.allMemberHeaderRightContent
+{
+
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
+    margin-right: 3%;
+}
+
+
+.searchInput
+{
+
+    padding-left: 10px;
+    margin-left: 10px;
+    height:40px;margin-top:1.5%;
+    border-radius: 4px;
+    border: solid 1px #dedede;
+
+}
+.searchInput:active,
+.searchInput:focus { 
+    outline: none; 
+}
+
+.exportButton
+{
+
+    width: 82px;
+    margin: 5px;
+    height:40px;margin-top:1.5%;background: #00c9e3;color:#ffffff;border:3px solid #00c9e3;border-radius: 8px;
+
+
+}
+.exportButton:active,
+.exportButton:focus { 
+    outline: none; 
+}
+
+.excelhide
+{
+    display: none;
+}
